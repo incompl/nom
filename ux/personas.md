@@ -38,6 +38,6 @@ Marketing / Advertising Guy
 
 ## Gina
 
-Product Sales Guy
+Product Sales Girl
 
 "I run a hot sauce company. I want this restaurant to use my product."
