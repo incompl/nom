@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ScappleDocument Version="1.1" ID="C9E17B07-AAAE-4A23-866F-EB68C97FB046">
+    <Notes>
+        <Note ID="2" FontSize="12.0" Position="794.0,631.0" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>address</String>
+            <ConnectedNoteIDs>9, 35</ConnectedNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="28.0" Position="1007.0,593.0" Width="83.0">
+            <Appearance></Appearance>
+            <String>menu</String>
+            <ConnectedNoteIDs>5, 13, 15, 27-29</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,4</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="511.0,373.0" Width="42.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>phone</String>
+            <ConnectedNoteIDs>26, 33, 35</ConnectedNoteIDs>
+        </Note>
+        <Note ID="5" FontSize="12.0" Position="1254.0,617.0" Width="44.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gallery</String>
+            <ConnectedNoteIDs>3, 34</ConnectedNoteIDs>
+        </Note>
+        <Note ID="6" FontSize="12.0" Position="1230.0,478.0" Width="81.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>concept blurb</String>
+            <ConnectedNoteIDs>34</ConnectedNoteIDs>
+        </Note>
+        <Note ID="7" FontSize="12.0" Position="412.0,638.0" Width="102.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>reservation policy</String>
+            <ConnectedNoteIDs>35</ConnectedNoteIDs>
+        </Note>
+        <Note ID="8" FontSize="12.0" Position="681.0,471.0" Width="39.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>hours</String>
+            <ConnectedNoteIDs>29-30, 35</ConnectedNoteIDs>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="799.0,746.0" Width="60.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>directions</String>
+            <ConnectedNoteIDs>2, 10, 35</ConnectedNoteIDs>
+        </Note>
+        <Note ID="10" FontSize="12.0" Position="728.0,796.0" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>map</String>
+            <ConnectedNoteIDs>9, 35</ConnectedNoteIDs>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="1067.0,723.0" Width="41.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>drinks</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="982.0,496.0" Width="79.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>brunch menu</String>
+            <ConnectedNoteIDs>3, 30</ConnectedNoteIDs>
+        </Note>
+        <Note ID="16" FontSize="12.0" Position="239.0,429.0" Width="25.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>fax</String>
+            <ConnectedNoteIDs>33</ConnectedNoteIDs>
+        </Note>
+        <Note ID="17" FontSize="12.0" Position="769.0,298.0" Width="76.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>events email</String>
+            <ConnectedNoteIDs>26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="325.0,489.0" Width="112.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>product sales email</String>
+            <ConnectedNoteIDs>33</ConnectedNoteIDs>
+        </Note>
+        <Note ID="20" FontSize="12.0" Position="329.0,307.0" Width="161.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>marketing / advertising email</String>
+            <ConnectedNoteIDs>33</ConnectedNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="1254.0,381.0" Width="81.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>media quotes</String>
+            <ConnectedNoteIDs>34</ConnectedNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="1461.0,609.0" Width="75.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>social media</String>
+            <ConnectedNoteIDs>34</ConnectedNoteIDs>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="1381.0,352.0" Width="86.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>radio interview</String>
+            <ConnectedNoteIDs>34</ConnectedNoteIDs>
+        </Note>
+        <Note ID="26" FontSize="28.0" Position="573.0,277.0" Width="97.0">
+            <Appearance></Appearance>
+            <String>events</String>
+            <ConnectedNoteIDs>4, 17, 31-32</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,6</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="1141.0,697.0" Width="51.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>draft list</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="976.0,697.0" Width="52.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>specials</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="823.0,504.0" Width="80.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>kitchen hours</String>
+            <ConnectedNoteIDs>3, 8</ConnectedNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="836.0,434.0" Width="79.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>brunch hours</String>
+            <ConnectedNoteIDs>8, 15</ConnectedNoteIDs>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="500.0,201.0" Width="84.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>private parties</String>
+            <ConnectedNoteIDs>26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="32" FontSize="12.0" Position="644.0,174.0" Width="79.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>public events</String>
+            <ConnectedNoteIDs>26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="33" FontSize="28.0" Position="330.0,382.0" Width="130.0">
+            <Appearance></Appearance>
+            <String>business</String>
+            <ConnectedNoteIDs>4, 16, 19-20</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,8</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="34" FontSize="28.0" Position="1391.0,479.0" Width="147.0">
+            <Appearance></Appearance>
+            <String>promotion</String>
+            <ConnectedNoteIDs>5-6, 21, 24-25</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,9</FormatRange>
+            </Formatting>
+        </Note>
+        <Note ID="35" FontSize="28.0" Position="489.0,502.0" Width="153.0">
+            <Appearance></Appearance>
+            <String>plan a visit</String>
+            <ConnectedNoteIDs>2, 4, 7-10</ConnectedNoteIDs>
+            <Formatting>
+                <FormatRange Bold="Yes">0,12</FormatRange>
+            </Formatting>
+        </Note>
+    </Notes>
+    <BackgroundShapes></BackgroundShapes>
+    <AutoFit>2-10, 13, 15-17, 19-21, 24-35</AutoFit>
+    <NoteStyles>
+        <Style Name="Title Text" ID="1E0D3435-2CC9-4274-A5A5-3ED8C9D34E3B" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+        <Style Name="Red Text" ID="25EBC431-55BE-4D0B-BB86-B3ACBBCBC652" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>1.0 0.0 0.0</TextColor>
+        </Style>
+        <Style Name="Brown Bubble" ID="B602470A-FFF5-4D5B-B277-71D5DA1758DC" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.290055 0.1523 0.182215</BorderColor>
+            <FillColor>0.940019 0.892907 0.779716</FillColor>
+        </Style>
+        <Style Name="Yellow Bubble" ID="491272E2-F0DE-4632-9876-5CF0E764D31C" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.756763 0.785592 0.373258</BorderColor>
+            <FillColor>0.906773 0.910625 0.634363</FillColor>
+        </Style>
+        <Style Name="Green Bubble" ID="2831C0EC-F1DD-47BC-85A3-8DE48288AB08" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.331867 0.609932 0.356197</BorderColor>
+            <FillColor>0.790123 0.882327 0.80198</FillColor>
+        </Style>
+        <Style Name="Blue Bubble" ID="3F67CC2C-70C5-4E51-9CA5-6C0FF6446276" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.477193 0.557066 0.76433</BorderColor>
+            <FillColor>0.840969 0.866828 0.925903</FillColor>
+        </Style>
+        <Style Name="Pink Bubble" ID="414411DC-D917-436A-8CA6-966DD16BCC33" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.747881 0.366532 0.542813</BorderColor>
+            <FillColor>0.918452 0.807302 0.863467</FillColor>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999737 0.986332 0.931298</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
