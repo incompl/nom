@@ -1,0 +1,158 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #0E0A09 url('../img/texture.png');
+  color: #E2D5CF;
+  line-height: 1.3em;
+}
+
+a:link {
+  color: #E2D5CF;
+}
+a:visited {
+  color: #E2D5CF;
+}
+a:hover {
+  background: rgba(255, 255, 255, .2);
+}
+a:active {
+  background: black;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+header, nav {
+  font-family: Georgia, serif;
+  font-weight: normal;
+}
+
+header {
+  text-align: center;
+  padding: 1.5em 0 0;
+  background-image: url('../img/steak.jpg');
+  background-position: 50% 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 1.3em 0 .2em;
+  text-shadow: 0 0 7px black, 2px 2px 2px black;
+}
+
+header h2 {
+  font-size: 1.2em;
+  margin: 1.3em 0 2.8em;
+  text-shadow: 0 0 7px black, 2px 2px 2px black;
+  color: rgb(247, 229, 229);
+}
+
+nav {
+  text-align: center;
+  background-color: rgba(173, 41, 8, 0.8);
+  font-size: 1.2em;
+  padding: .3em 0 .25em;
+  margin: 0 0 1em;
+}
+
+nav a:link, nav a:visited {
+  margin: 0 .4em;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1em;
+  overflow: auto;
+}
+
+.col-40 {
+  float: left;
+  width: 40%;
+}
+
+.col-60 {
+  float: left;
+  width: 60%;
+}
+
+.col {
+  padding: 0 1em 0 0;
+}
+
+.col:last-child {
+  padding: 0;
+}
+
+.padded {
+  padding: 0 1em 0 0;
+}
+
+#phone {
+  margin: 2.2em 0 0;
+}
+
+#phone-number {
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+  font-family: Georgia, serif;
+}
+
+#address {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  margin: 0 0 1em;
+  font-family: Georgia, serif;
+  color: white;
+}
+
+#hours-open {
+  font-size: 1.3em;
+  color: white;
+  margin: 0 0 .5em;
+  font-family: Georgia, serif;
+}
+
+.hours-day-name {
+  display: inline-block;
+  width: 2.5em;
+}
+
+.hours-day {
+  color: #A59790;
+}
+
+.hours-today {
+  color: white;
+}
+
+section {
+  margin: 1em 0;
+}
+
+footer {
+  text-align: center;
+  padding: .3em 0;
+}
+
+footer a:link, footer a:visited {
+  margin: 0 .2em;
+  font-size: .9em;
+  color: #A2918E;
+}
