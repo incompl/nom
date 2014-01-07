@@ -28,6 +28,12 @@ a:active {
 
 h1, h2, h3 {
   font-weight: normal;
+  font-family: Georgia, serif;
+  color: white;
+}
+
+img {
+  max-width: 100%;
 }
 
 header, nav {
@@ -46,14 +52,14 @@ header {
 }
 
 header h1 {
-  font-size: 3em;
-  margin: 1.3em 0 .2em;
+  font-size: 2em;
+  margin: .5em 0 .2em;
   text-shadow: 0 0 7px black, 2px 2px 2px black;
 }
 
 header h2 {
-  font-size: 1.2em;
-  margin: 1.3em 0 2.8em;
+  font-size: 1em;
+  margin: 1.3em 0 2em;
   text-shadow: 0 0 7px black, 2px 2px 2px black;
   color: rgb(247, 229, 229);
 }
@@ -62,49 +68,72 @@ nav {
   text-align: center;
   background-color: rgba(173, 41, 8, 0.8);
   font-size: 1.2em;
-  padding: .3em 0 .25em;
+  padding: .2em 0 .15em;
   margin: 0 0 1em;
+  line-height: 1.3em;
+}
+
+nav a {
+  margin: 0 .4em;
+  padding: .1em .2em 0;
+  white-space: nowrap;
 }
 
 nav a:link, nav a:visited {
-  margin: 0 .4em;
   text-decoration: none;
   font-family: Arial, sans-serif;
   color: white;
   text-shadow: 1px 1px 2px black;
 }
+nav a:hover {
+  background: rgba(0, 0, 0, .6);
+}
 
-.container {
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 0 1em;
+dl {
+  margin: 0 0 3em;
+}
+
+dt {
+  font-size: 1.2em;
+  font-family: Georgia, serif;
+}
+
+dd {
+  margin: 1em;
+  color: rgb(170, 142, 142);
+}
+
+blockquote {
+  font-size: 1.3em;
+  line-height: 1.1em;
+  margin: 0 1em .5em 0;
+  color: white;
+}
+
+.clear {
   overflow: auto;
 }
 
-.col-40 {
-  float: left;
-  width: 40%;
-}
-
-.col-60 {
-  float: left;
-  width: 60%;
-}
-
 .col {
-  padding: 0 1em 0 0;
+  padding: 0 1em;
 }
 
-.col:last-child {
-  padding: 0;
+.center {
+  text-align: center;
 }
 
-.padded {
-  padding: 0 1em 0 0;
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+  overflow: auto;
 }
 
-#phone {
-  margin: 2.2em 0 0;
+.link-list {
+  margin: 2em 0 1em;
+}
+
+.link-list a {
+  margin: 0 .2em;
 }
 
 #phone-number {
@@ -148,11 +177,60 @@ section {
 
 footer {
   text-align: center;
-  padding: .3em 0;
+  padding: .5em 0;
 }
 
 footer a:link, footer a:visited {
   margin: 0 .2em;
   font-size: .9em;
   color: #A2918E;
+}
+
+footer a:hover {
+  color: white;
+}
+
+@media screen and (width:320px) {
+  .no-padding {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width:701px) {
+  .col-50 {
+    float: left;
+    width: 50%;
+  }
+
+  .col-40 {
+    float: left;
+    width: 40%;
+  }
+
+  .col-60 {
+    float: left;
+    width: 60%;
+  }
+
+  .col {
+    padding: 0 1em 0 0;
+  }
+
+  .col:last-child {
+    padding: 0;
+  }
+
+  #phone {
+    padding: 2.4em 0 0 0;
+  }
+
+  header h1 {
+    font-size: 3em;
+    margin: 1.3em 0 .2em;
+  }
+
+  header h2 {
+    font-size: 1.2em;
+    margin: 1.3em 0 2.8em;
+  }
 }
