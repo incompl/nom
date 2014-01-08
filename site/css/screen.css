@@ -57,6 +57,14 @@ header h1 {
   text-shadow: 0 0 7px black, 2px 2px 2px black;
 }
 
+header h1 a:link, header h1 a:visited {
+  color: white;
+  text-decoration: none;
+}
+header h1 a:hover {
+  background: transparent;
+}
+
 header h2 {
   font-size: 1em;
   margin: 1.3em 0 2em;
@@ -66,7 +74,7 @@ header h2 {
 
 nav {
   text-align: center;
-  background-color: rgba(173, 41, 8, 0.8);
+  background-color: rgba(173, 15, 8, 0.8);
   font-size: 1.2em;
   padding: .2em 0 .15em;
   margin: 0 0 1em;
@@ -81,9 +89,9 @@ nav a {
 
 nav a:link, nav a:visited {
   text-decoration: none;
-  font-family: Arial, sans-serif;
+  font-family: Georgia, serif;
   color: white;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 2px 1px 2px black;
 }
 nav a:hover {
   background: rgba(0, 0, 0, .6);

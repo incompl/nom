@@ -4,7 +4,7 @@
 
 Over the years I've become increasingly frusterated with restaurant websites. I don't just mean the ones that play background music, rely on Flash, use huge PDF downloads, and don't work on your phone. It's pretty easy to nitpick those problems. No, I mean when you want to get a restaurant's phone number, address, or hours, and you just can't find it. Is the information you're looking for under Contact? About? Locations?
 
-My usabilty-ense tingles in a Spider Man-esque fashion every time I see a site with an "About" page that is just a mess of random information that didn't fit anywhere else. _Ah,_ I think, _the old "Miscellaneous" category._ A UX anti-pattern that indicates that the navigation was designed without a full assessment of the site content. They probably just copied how other restaurant sites do it. This kind of copying has yielded institutionalized conventions for Information Architecture that confuse and frusterate users. Furthermore, not all restaurant sites have the same content, so they shouldn't all have the same navigation.
+My usabilty-sense tingles in a Spider Man-esque fashion every time I see a site with an "About" page that is just a mess of random information that didn't fit anywhere else. _Ah,_ I think, _the old "Miscellaneous" category._ A UX anti-pattern that indicates that the navigation was designed without a full assessment of the site content. They probably just copied how other restaurant sites do it. This kind of copying has yielded institutionalized conventions for Information Architecture that confuse and frusterate users. Furthermore, not all restaurant sites have the same content, so they shouldn't all have the same navigation.
 
 As they say, it's easy to criticize. I'll put my Monopoly Money where my mouth is. I decided to build a restaurant website from the ground up. The content is all open source, so you're free to use any of it as you'd like. But, since not every site is the same, just open-sourcing my work isn't enough. That's why this article is a writeup of my process for designing the site for my imaginary restaurant named Nom. If you learn some new tricks for designing easy-to-use websites from this article, that's even more important! So let's get started.
 
@@ -20,11 +20,11 @@ Since Nom isn't a real restaurant, and there are no real stakeholders to confer 
 
 Although this list is reverse-engineered, it will still be useful because I _understand_ the requirements and am not just working from a feature checklist without context. Typically you would start out by making your Personas, then build your Stories and Requirements from that.
 
-Also, notice that two of the personas have objectives that were not listed in our objectives earlier. We will add "Helping business contacts get in touch with us" as a site objective.
+Also, notice that two of the personas have objectives that were not listed earlier. We will add "Helping business contacts get in touch with us" as a site objective.
 
 ## Information Architecture and Interaction Design
 
-Information Architecture (IA) and Interaction Design (IX) are more or less useful depending on how much your project is a site for finding information versus an app for performing tasks. In my case I focused on IA, but I still did a little IX work.
+Information Architecture (IA) and Interaction (IX) Design are more or less useful depending on how much your project is a site for finding information versus an app for performing tasks. In my case I focused on IA, but I still did a little IX work.
 
 First, I took my content list and clustered related content into groups using [Scrapple](http://www.literatureandlatte.com/scapple.php) (notecards or a whiteboard would work too). Then I gave names to the naturally-ocurring content clusters. The end result looks like this:
 
@@ -36,7 +36,7 @@ I decided to move forward assuming these clusters could map to pages on the site
 
 https://github.com/incompl/nom/blob/master/ux/interaction.png
 
-This Interaction Diagram is simple enough to summarize in words. Visitors to the site will either end up at "Plan a Visit" or "Business". Visitors may visit one of "Events", "Menu", or "Promotion" before they reach "Plan a Visit".
+This Interaction Diagram is simple enough to summarize in words. Visitors to the site will end up at either "Plan a Visit" or "Business". Visitors may visit one of "Events", "Menu", or "Promotion" before they reach "Plan a Visit".
 
 We started out with a lot of content, but we've reached a great way to organize it. Next we'll get specific about what those pages will actually look like
 
@@ -52,7 +52,7 @@ https://raw.github.com/incompl/nom/master/ux/wireframes.png
 
 ## Prototype and Visual Design
 
-Now that we have wireframes, the next step is to do the visual design for the site. Sometimes a designer would make mocks that the developers would work from. In my case, I am going to make the design and the HTML + CSS prototype at the same time. I find that doing your design while prototyping keeps the design more "real", since converting mocks to functional layouts can be tricky. It also allowed me to make sure the visual designed worked with the [responsive](http://alistapart.com/article/responsive-web-design) layout.
+Now that we have wireframes, the next step is to do the visual design for the site. Sometimes a designer would make mocks that the developers would work from. In my case, I am going to make the design and the HTML + CSS prototype at the same time. I find that doing your design while prototyping keeps the design more "real", since converting mocks to functional layouts can be tricky. It also allowed me to make sure the visual design worked with the [responsive](http://alistapart.com/article/responsive-web-design) layout.
 
 ## From Prototype to Functional Site
 
