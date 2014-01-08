@@ -1,16 +1,22 @@
+## MIT licensed content
+
 The MIT license at the end of the file applies to the following content.
 
-site/*.html
-site/css
-site/js
+* site/*.html
+* site/css
+* site/js
+
+## Third party content
 
 The following content is third party and is licensed separately:
 
-site/lib
+* site/lib
 
-The content in the "ux" direcotry is hearby released into the public domain.
+## Public domain content
 
----------------------
+The content in the `ux` direcotry is hearby released into the public domain.
+
+## MIT license
 
 The MIT License (MIT)
 
