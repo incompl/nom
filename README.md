@@ -2,15 +2,15 @@
 
 ## Introduction
 
-Over the years I've become increasingly frusterated with restaurant websites. I don't just mean the ones that play background music, rely on Flash, use huge PDF downloads, and don't work on your phone. It's pretty easy to nitpick those problems. No, I mean when you want to get a restaurant's phone number, address, or hours, and you just can't find it. Is the information you're looking for under Contact? About? Locations?
+Over the years I've become increasingly frustrated with restaurant websites. I don't just mean the ones that play background music, rely on Flash, use huge PDF downloads, and don't work on your phone. It's pretty easy to nitpick those problems. No, I mean when you want to get a restaurant's phone number, address, or hours, and you just can't find it. Is the information you're looking for under Contact? About? Locations?
 
-My usabilty-sense tingles in a Spider Man-esque fashion every time I see a site with an "About" page that is just a mess of random information that didn't fit anywhere else. _Ah,_ I think, _the old "Miscellaneous" category._ A UX anti-pattern that indicates that the navigation was designed without a full assessment of the site content. They probably just copied how other restaurant sites do it. This kind of copying has yielded institutionalized conventions for Information Architecture that confuse and frusterate users. Furthermore, not all restaurant sites have the same content, so they shouldn't all have the same navigation.
+My usability-sense tingles in a Spider Man-esque fashion every time I see a site with an "About" page that is just a mess of random information that didn't fit anywhere else. _Ah,_ I think, _the old "Miscellaneous" category._ A UX anti-pattern that indicates that the navigation was designed without a full assessment of the site content. They probably just copied how other restaurant sites do it. This kind of copying has yielded institutionalized conventions for Information Architecture that confuse and frustrate users. Furthermore, not all restaurant sites have the same content, so they shouldn't all have the same navigation.
 
 As they say, it's easy to criticize. I'll put my Monopoly Money where my mouth is. I decided to build a restaurant website from the ground up. The content is all open source, so you're free to use any of it as you'd like. But, since not every site is the same, just open-sourcing my work isn't enough. That's why this article is a writeup of my process for designing the site for my imaginary restaurant named Nom. If you learn some new tricks for designing easy-to-use websites from this article, that's even more important! So let's get started.
 
 ## Objectives
 
-Every web project should start with an assessment of objectives. For some businesses this can be an interesting strategy question, but for a restaurant it's pretty obvious. The user objective is to determine if they want to visit the restaurant, then plan a visit once they're decided. The business objective is to convince people to visit, then help them plan their visit. Conveniently, the user and business objectives are almost the same. This might seem obvious, but it's important to establish it at the begining. Everything that follows should be traceable to these foundation objectives. If you start planning a feature that doesn't seem to have anything to do with these objectives, you need to ask some questions: is the feature really necessary, or do the objectives need to be revised?
+Every web project should start with an assessment of objectives. For some businesses this can be an interesting strategy question, but for a restaurant it's pretty obvious. The user objective is to determine if they want to visit the restaurant, then plan a visit once they're decided. The business objective is to convince people to visit, then help them plan their visit. Conveniently, the user and business objectives are almost the same. This might seem obvious, but it's important to establish it at the beginning. Everything that follows should be traceable to these foundation objectives. If you start planning a feature that doesn't seem to have anything to do with these objectives, you need to ask some questions: is the feature really necessary, or do the objectives need to be revised?
 
 ## Requirements
 
@@ -26,7 +26,7 @@ Also, notice that two of the personas have objectives that were not listed earli
 
 Information Architecture (IA) and Interaction (IX) Design are more or less useful depending on how much your project is a site for finding information versus an app for performing tasks. In my case I focused on IA, but I still did a little IX work.
 
-First, I took my content list and clustered related content into groups using [Scrapple](http://www.literatureandlatte.com/scapple.php) (notecards or a whiteboard would work too). Then I gave names to the naturally-ocurring content clusters. The end result looks like this:
+First, I took my content list and clustered related content into groups using [Scrapple](http://www.literatureandlatte.com/scapple.php) (notecards or a whiteboard would work too). Then I gave names to the naturally-occurring content clusters. The end result looks like this:
 
 https://raw.github.com/incompl/nom/master/ux/ia.png
 
@@ -62,7 +62,7 @@ In this case all the prototype needed was some JavaScript love to be fully funct
 
 ## What's next?
 
-For a real project I'd want to do some [Usibility Testing](http://en.wikipedia.org/wiki/Usability_testing) next. Nothing too formal would be needed for so small a site: I'd just grab some friends and coworkers and tell them to perform certain tasks. I'd go to the restaurant and talk to people about the site. I'd have some questions in mind: for example, I thought about separating "Food & Drink" into two separate tabs. If I saw users confused about where the tap list was that might further persuade me to make the change. Just as importantly, I'd want to be on the watch for problems or ideas I had never thought of!
+For a real project I'd want to do some [Usability Testing](http://en.wikipedia.org/wiki/Usability_testing) next. Nothing too formal would be needed for so small a site: I'd just grab some friends and coworkers and tell them to perform certain tasks. I'd go to the restaurant and talk to people about the site. I'd have some questions in mind: for example, I thought about separating "Food & Drink" into two separate tabs. If I saw users confused about where the tap list was that might further persuade me to make the change. Just as importantly, I'd want to be on the watch for problems or ideas I had never thought of!
 
 ## Conclusion
 
