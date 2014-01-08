@@ -12,9 +12,9 @@ The following content is third party and is licensed separately:
 
 * site/lib
 
-## Public domain content
+## Creative Commons content
 
-The content in the `ux` direcotry is hearby released into the public domain.
+The content in the `ux` directory is licensed [Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/deed.en_US)
 
 ## MIT license
 
