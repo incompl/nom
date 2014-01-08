@@ -1,6 +1,6 @@
 ## MIT licensed content
 
-The MIT license at the end of the file applies to the following content.
+The MIT license at the end of this file applies to the following content.
 
 * site/*.html
 * site/css
