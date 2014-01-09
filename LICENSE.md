@@ -16,6 +16,8 @@ The following content is third party and is licensed separately:
 
 The content in the `ux` directory is licensed [Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/deed.en_US)
 
+The content in the `site/img` directory is mostly licensed by third parties. Check the "Image Credit" links on the bottom of each page where an image is used. These links are sufficient attribution according to how the images are licensed as far as I understand.
+
 ## MIT license
 
 The MIT License (MIT)
