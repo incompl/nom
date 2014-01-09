@@ -122,7 +122,7 @@
     <script defer src="lib/idangerous.swiper-2.4.min.js"></script>
     <script src="lib/picturefill.js"></script>
     <script>
-      window.onload = function() {
+      document.addEventListener("DOMContentLoaded", function(event) {
         var mySwiper = new Swiper('.swiper-container',{
           mode:'horizontal',
           loop: true,
@@ -130,7 +130,7 @@
           pagination: '.my-pagination',
           calculateHeight: true
         });
-      }
+      });
     </script>
   </body>
 </html>
