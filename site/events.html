@@ -30,7 +30,14 @@
 
         <div class="clear">
           <div class="col col-40">
-            <img src="img/looper.jpg">
+            <span data-picture data-alt="Looper">
+              <span data-src="img/looper-small.jpg"></span>
+              <span data-src="img/looper.jpg" data-media="(min-width: 600px)"></span>
+
+              <noscript>
+                  <img src="img/looper-small.jpg">
+              </noscript>
+            </span>
           </div>
           <div class="col col-60">
             <h4>Movie Night</h4>
@@ -53,5 +60,6 @@
       <a href="http://www.flickr.com/photos/60944931@N00/4659211175/in/photolist-86HFaa-7RQG5V">Image Credit</a>
       <a href="business.html">Business Contact Info</a>
     </footer>
+    <script src="lib/picturefill.js"></script>
   </body>
 </html>

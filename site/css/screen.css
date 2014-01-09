@@ -26,10 +26,20 @@ a:active {
   background: black;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   font-family: Georgia, serif;
   color: white;
+}
+
+h4 {
+  margin: .7em 0;
+  font-size: 1.2em;
+}
+
+h5 {
+  margin: .7em 0;
+  font-size: 1em;
 }
 
 img {
@@ -43,9 +53,9 @@ header, nav {
 
 header {
   text-align: center;
-  padding: 1.5em 0 0;
-  background-image: url('../img/steak.jpg');
-  background-position: 50% 45%;
+  padding: 1em 0 0;
+  background-image: url('../img/steak-small.jpg');
+  background-position: 50% 42%;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -108,13 +118,13 @@ dt {
 
 dd {
   margin: 1em;
-  color: rgb(170, 142, 142);
+  color: #AA8E8E;
 }
 
 blockquote {
   font-size: 1.3em;
   line-height: 1.1em;
-  margin: 0 1em .5em 0;
+  margin: 1em 1em .5em 0;
   color: white;
 }
 
@@ -159,6 +169,11 @@ blockquote {
   color: white;
 }
 
+#address a {
+  color: white;
+  text-decoration: none;
+}
+
 #hours-open {
   font-size: 1.3em;
   color: white;
@@ -179,6 +194,10 @@ blockquote {
   color: white;
 }
 
+#interview {
+  margin: 2em 0 0;
+}
+
 section {
   margin: 1em 0;
 }
@@ -188,10 +207,14 @@ footer {
   padding: .5em 0;
 }
 
+footer a {
+  white-space: nowrap;
+}
+
 footer a:link, footer a:visited {
   margin: 0 .2em;
   font-size: .9em;
-  color: #A2918E;
+  color: #AA8E8E;
 }
 
 footer a:hover {
@@ -201,6 +224,12 @@ footer a:hover {
 @media screen and (width:320px) {
   .no-padding {
     padding: 0;
+  }
+}
+
+@media screen and (min-width:600px) {
+  header {
+    background-image: url('../img/steak.jpg');
   }
 }
 

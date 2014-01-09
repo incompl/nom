@@ -31,19 +31,43 @@
         <div class="swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-             <img src="img/outside.jpg">
+              <span data-picture>
+                <span data-src="img/outside-small.jpg"></span>
+                <span data-src="img/outside.jpg" data-media="(min-width: 600px)"></span>
+                <noscript>
+                  <img src="img/outside-small.jpg">
+                </noscript>
+              </span>
             </div>
 
             <div class="swiper-slide">
-             <img src="img/burger.jpg">
+              <span data-picture>
+                <span data-src="img/burger-small.jpg"></span>
+                <span data-src="img/burger.jpg" data-media="(min-width: 600px)"></span>
+                <noscript>
+                  <img src="img/burger-small.jpg">
+                </noscript>
+              </span>
             </div>
 
             <div class="swiper-slide">
-              <img src="img/drinks.jpg">
+              <span data-picture>
+                <span data-src="img/drinks-small.jpg"></span>
+                <span data-src="img/drinks.jpg" data-media="(min-width: 600px)"></span>
+                <noscript>
+                  <img src="img/drinks-small.jpg">
+                </noscript>
+              </span>
             </div>
 
             <div class="swiper-slide">
-              <img src="img/potpie.jpg">
+              <span data-picture>
+                <span data-src="img/potpie-small.jpg"></span>
+                <span data-src="img/potpie.jpg" data-media="(min-width: 600px)"></span>
+                <noscript>
+                  <img src="img/potpie-small.jpg">
+                </noscript>
+              </span>
             </div>
           </div>
         </div>
@@ -61,14 +85,22 @@
           </div>
         </div>
 
-        <div class="col center">
+        <div id="interview" class="col center">
 
           <p>Head Chef Greg Smith's Interview on NPR</p>
 
-          <audio controls="controls">
-            <a href="foo.wav">Download</a>
-            <source src="foo.wav" type="audio/wav">
+        </div>
+
+        <div class="col center no-padding">
+
+          <audio controls="controls" preload="none">
+            <a href="audio/foo.mp3">Download</a>
+            <source src="audio/foo.mp3" type="audio/mpeg">
           </audio>
+
+        </div>
+
+        <div class="col center">
 
           <div class="link-list">
             <a href="#">Facebook Page</a> <a href="#">Twitter Page</a>
@@ -88,6 +120,7 @@
     </footer>
     <link rel="stylesheet" href="lib/idangerous.swiper.css">
     <script defer src="lib/idangerous.swiper-2.4.min.js"></script>
+    <script src="lib/picturefill.js"></script>
     <script>
       window.onload = function() {
         var mySwiper = new Swiper('.swiper-container',{
