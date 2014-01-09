@@ -12,7 +12,7 @@ Every design project should start with an assessment of objectives. For some bus
 
 ## Requirements
 
-Since Nom isn't a real restaurant, and there are no real stakeholders to confer with, my requirements are going to be made-up. I made my requirements list by visiting 3 of my favorite restaurants and writing down a list of all of the content from those sites. For a real site the requirements discovery process is a little more complicated. One process I like is creating [Personas](http://en.wikipedia.org/wiki/Persona_%28user_experience%29), which are imaginary characters that represent the different types of users for your site. From Personas you can create [stories](http://en.wikipedia.org/wiki/User_story), which can then be distilled into a list of content and feature requirements.
+Since Nom isn't a real restaurant, and there are no real stakeholders to confer with, my requirements are going to be made-up. I made my requirements list by visiting 3 of my favorite restaurant websites and writing down a list of all of the content from those sites. For a real site the requirements discovery process is a little more complicated. One process I like is creating [Personas](http://en.wikipedia.org/wiki/Persona_%28user_experience%29), which are imaginary characters that represent the different types of users for your site. From Personas you can create [stories](http://en.wikipedia.org/wiki/User_story), which can then be distilled into a list of content and feature requirements.
 
 [Requirements list for Nom](#)
 
