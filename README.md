@@ -28,7 +28,7 @@ https://raw.github.com/incompl/nom/master/ux/ia.png
 
 Happily, I noted that neither "About" nor "Contact" clusters appeared. Those notions are spread throughout the site and are not discrete, so it's hard to make clusters around them. This process is a helpful way to identify clusters with stronger identities.
 
-I decided to move forward assuming these clusters could map to pages on the site. The following is a rough Interaction Diagram using those pages, showing the flow through the site for each Persona's interaction or Story.
+I decided to move forward assuming these clusters could map to pages on the site. The following is a rough Interaction Diagram using those pages, showing the flow through the site for different types of users.
 
 https://github.com/incompl/nom/blob/master/ux/interaction.png
 
