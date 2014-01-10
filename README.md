@@ -40,7 +40,7 @@ We started out with a lot of content, but we've reached a great way to organize 
 
 One common mistake for a lot of web projects is doing wireframes too early in the process. Our understanding of our project has evolved quite a bit since we first started. If we had developed a rigid wireframe based on our early ideas, we'd have a much harder time responding to our research. Now we're ready to transform each blank box in the Interaction Diagram into an interface.
 
-I used [Balsamiq](http://balsamiq.com/) for these wireframes. I find Balsamiq easy to use and it's convenient to make wireframes that look like blueprints, not a finished product. It is important to make sure wireframes don't contain visual or graphic design work. That needs to be done after the wireframes are finished. I'm doing this project by myself, but on many teams the visual designer would be a different person.
+I used [Balsamiq](http://balsamiq.com/) for these wireframes. I find Balsamiq easy to use and it's convenient to make wireframes that look like blueprints, not a finished product. It's important to make sure wireframes don't contain visual or graphic design work. That needs to be done after the wireframes are finished. I'm doing this project by myself, but on many teams the visual designer would be a different person.
 
 Here is what I came up with:
 
@@ -48,7 +48,7 @@ https://raw.github.com/incompl/nom/master/ux/wireframes.png
 
 ## Prototype and Visual Design
 
-Now that we have wireframes, the next step is to do the visual design for the site. Sometimes a designer would make mocks that the developers would work from. In my case, I am going to make the design and the HTML + CSS prototype at the same time. I find that doing your design while prototyping keeps the design more "real", since converting mocks to functional layouts can be tricky. It also helped me to make sure the visual design worked with the [responsive](http://alistapart.com/article/responsive-web-design) layout.
+Now that we have wireframes, the next step is to do the visual design for the site. Sometimes a designer would make mocks that the developers would work from. In my case, I made the design and the HTML + CSS prototype at the same time. I find that doing your design while prototyping keeps the design more "real", since converting mocks to functional layouts can be tricky. It also helped me to make sure the visual design worked with the [responsive](http://alistapart.com/article/responsive-web-design) layout.
 
 ## From Prototype to Functional Site
 
@@ -58,10 +58,10 @@ In this case all the prototype needed was some JavaScript love to be fully funct
 
 ## What's next?
 
-For a real project I'd want to do some [Usability Testing](http://en.wikipedia.org/wiki/Usability_testing) next. Nothing too formal would be needed for so small a site: I'd just grab some friends and coworkers and tell them to perform certain tasks. I'd go to the restaurant and talk to people about the site. I'd have some questions in mind: for example, I thought about separating "Food & Drink" into two separate tabs. If I saw users confused about where the tap list was that might further persuade me to make the change. Just as importantly, I'd want to be on the watch for problems or ideas I had never thought of!
+For a real project I'd want to do some [Usability Testing](http://en.wikipedia.org/wiki/Usability_testing) next. Nothing too formal would be needed for so small a site: I'd just grab some friends and coworkers and tell them to perform certain tasks. I'd go to the restaurant and talk to people about the site. I'd have some questions in mind: for example, I thought about separating "Food & Drink" into two separate tabs. If I saw users confused about where the tap list was that might further persuade me to make the change. Just as importantly, I'd want to be on the watch for problems or ideas I never thought of!
 
 ## Conclusion
 
 I hope this article gave you some ideas for how to design great websites. Of course, I don't think this is the only way to do it. I don't want anyone to think I'm advocating this as the One True Way to design websites. Rather, I hope by sharing my process I've provided ideas that you can incorporate into yours.
 
-The Nom site itself is [open source](https://github.com/incompl/nom) so feel free to use parts of it or try out your own ideas!
+The Nom site itself is [open source](https://github.com/incompl/nom) so feel free to use parts of or fork it to try out your own ideas!
