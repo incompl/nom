@@ -50,6 +50,8 @@ https://raw.github.com/incompl/nom/master/ux/wireframes.png
 
 Now that we have wireframes, the next step is to do the visual design for the site. Sometimes a designer would make mocks that the developers would work from. In my case, I made the design and the HTML + CSS prototype at the same time. I find that doing your design while prototyping keeps the design more "real", since converting mocks to functional layouts can be tricky. It also helped me to make sure the visual design worked with the [responsive](http://alistapart.com/article/responsive-web-design) layout.
 
+I'm not much of a visual designer, but I do know it's important for visual design is to emphasize your content and communicate your personality. I went with a simple design with awesome food images that I found through [Flickr Creative Commons](http://www.flickr.com/search/advanced/) search. The color scheme attempts to draw attention to important content while also communicating a trendy, modern vibe. I grabbed a background texture from [Subtle Patterns](http://subtlepatterns.com/) to match the more organic feel that the food images created.
+
 ## From Prototype to Functional Site
 
 In this case all the prototype needed was some JavaScript love to be fully functional. I had recently made [Hours](https://github.com/incompl/hours) for this project: it's a widget for displaying business hours according to the local time. I used [Picturefill](https://github.com/scottjehl/picturefill) for responsive images and [Swiper](http://www.idangero.us/sliders/swiper/) as a gallery widget. With these integrated, I had a functional site!
