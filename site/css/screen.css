@@ -4,13 +4,16 @@
           box-sizing: border-box;
 }
 
+* {
+  overflow: auto;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   background: #0E0A09 url('../img/texture.png');
   color: #E2D5CF;
-  line-height: 1.3em;
 }
 
 a:link {
@@ -42,6 +45,10 @@ h5 {
   font-size: 1em;
 }
 
+p {
+  line-height: 1.3em;
+}
+
 img {
   max-width: 100%;
 }
@@ -54,6 +61,7 @@ header, nav {
 header {
   text-align: center;
   padding: 1.8em 0 0;
+  margin: 0 0 2em;
   background-image: url('../img/steak-small.jpg');
   background-position: 50% 60%;
   background-repeat: no-repeat;
@@ -86,15 +94,14 @@ header h2 {
 nav {
   text-align: center;
   background-color: rgba(173, 15, 8, 1);
-  font-size: 1.2em;
-  margin: 0 0 2em;
+  font-size: 0;
 }
 
 nav a {
-  margin: 0;
   padding: .6em .8em;
   white-space: nowrap;
   display: inline-block;
+  font-size: 1.2rem;
 }
 
 nav a:link, nav a:visited {
@@ -129,11 +136,7 @@ blockquote {
   line-height: 1.1em;
   margin: 1em 1em .5em 0;
   color: white;
-}
-
-.clear {
-  overflow: auto;
-}
+}gi
 
 .col {
   padding: 0 1em;
@@ -146,7 +149,6 @@ blockquote {
 .container {
   max-width: 650px;
   margin: 0 auto;
-  overflow: auto;
 }
 
 .link-list {
@@ -207,6 +209,10 @@ blockquote {
 
 #interview {
   margin: 2em 0 0;
+}
+
+.hours-day > * {
+  vertical-align: middle;
 }
 
 section {
